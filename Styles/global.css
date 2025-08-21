@@ -1,0 +1,25 @@
+* { /** seletor global*/
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --travelgram: #E3646E;
+  --techNews: #3996DB;
+  --paginadereceitaEzingen: #EABD5F;
+  --refund: #82BC4F;
+  --paginadeturismo: #E3646E;
+  --purple: #BB72E9;
+
+  --gray-100: #E2E4E9;
+  --gray-200: #C0C4CE;
+  --gray-300: #878EA1;
+  --gray-400: #292C34;
+  --gray-500: #16181D;
+  --gray-600: #0D0E11;
+}
+
+body {
+  background-color: var(--gray-400);
+}
