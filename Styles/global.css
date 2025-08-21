@@ -18,6 +18,23 @@
   --gray-400: #292C34;
   --gray-500: #16181D;
   --gray-600: #0D0E11;
+
+  
+  --font-asap: 'Asap', sans-serif;
+  --font-inconsolata: 'Inconsolata', monospace;
+  --font-maven: 'Maven Pro', sans-serif;
+
+  /*ASAP*/
+  --h1: 700 56px/120% var(--font-asap);
+  --h2: 700 24px/120% var(--font-asap);
+  --h3: 700 16px/120% var(--font-asap);
+
+  /*INCONSOLATA*/
+  --subtitle: 400 20px/120% var(--font-inconsolata);
+
+  /*Maven Pro*/
+  --text-md: 400 16px/140% var(--font-maven);
+  --text-md: 400 14px/140% var(--font-maven);
 }
 
 body {
