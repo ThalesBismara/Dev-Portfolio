@@ -1,0 +1,85 @@
+.header-container {
+  position: relative; /* Permite que o avatar seja posicionado sobre o fundo */
+  text-align: center; /* Centraliza os textos e imagens */
+
+}
+
+.background {
+  height: 750px;
+  width: 1366px;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 80px;
+  
+}
+
+.overlay-content {
+  margin-top: 110px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+}
+
+.avatar-container{
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-top: 80px;
+
+}
+
+.avatar-container img {
+  width: 96px;
+  height: 96px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #E3646E;
+
+}
+
+h3 {
+  padding-top: 56px;;
+}
+
+h1 {
+  padding-block: 5px;
+}
+
+.icons-container { 
+  display: flex;
+  padding-top: 80px;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  
+}
+
+.icon-item {
+  background-color: #16181D;
+  display: flex;
+  padding: 16px;
+  align-items: center;
+  background-color: #292C34;
+  border-radius: 50px;
+
+}
+
+.border {
+  border-radius: 50%;
+  
+}
+
+.seta-icon {
+ margin-top: 80px;
+
+}

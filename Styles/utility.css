@@ -1,0 +1,29 @@
+.text-gray-200 {
+  color: var(--gray-200);
+}
+
+.subtitle {
+  font: var(--subtitle);
+  color: var(--gray-200); 
+}
+
+.vermelho {
+  color: var(--vermelho)
+}
+
+.h1 {
+  font: var(--h1);
+  color: var(--gray-100);
+}
+
+.p {
+  font: var(--text-md1);
+  color: var(--gray-300);
+  
+}
+
+.p2 {
+  font: var(--text-md1);
+  color: var(--gray-300);
+  
+}

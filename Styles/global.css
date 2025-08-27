@@ -5,11 +5,11 @@
 }
 
 :root {
-  --travelgram: #E3646E;
-  --techNews: #3996DB;
-  --paginadereceitaEzingen: #EABD5F;
-  --refund: #82BC4F;
-  --paginadeturismo: #E3646E;
+  --travelgram: rgb(227, 100, 110);
+  --techNews: rgb(57, 150, 219);
+  --paginadereceitaEzingen: rgb(234, 189, 95);
+  --refund: rgb(130, 188, 79);
+  --vermelho: #E3646E;
   --purple: #BB72E9;
 
   --gray-100: #E2E4E9;
@@ -17,7 +17,7 @@
   --gray-300: #878EA1;
   --gray-400: #292C34;
   --gray-500: #16181D;
-  --gray-600: #0D0E11;
+  --gray-600: rgb(13, 14, 17);
 
   
   --font-asap: 'Asap', sans-serif;
@@ -27,14 +27,14 @@
   /*ASAP*/
   --h1: 700 56px/120% var(--font-asap);
   --h2: 700 24px/120% var(--font-asap);
-  --h3: 700 16px/120% var(--font-asap);
 
   /*INCONSOLATA*/
   --subtitle: 400 20px/120% var(--font-inconsolata);
 
   /*Maven Pro*/
-  --text-md: 400 16px/140% var(--font-maven);
-  --text-md: 400 14px/140% var(--font-maven);
+  --text-md0: 400 16px/140% var(--font-maven);
+  --text-md1: 400 14px/140% var(--font-maven);
+  --p: 700 16px/120% var(--font-maven);
 }
 
 body {
