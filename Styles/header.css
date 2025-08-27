@@ -43,7 +43,6 @@
   object-fit: cover;
   border-radius: 50%;
   border: 2px solid #E3646E;
-
 }
 
 h3 {
@@ -57,11 +56,8 @@ h1 {
 .icons-container { 
   display: flex;
   padding-top: 80px;
-  gap: 10px;
-  justify-content: center;
-  flex-wrap: wrap;
-
-  
+  gap: 16px;
+ 
 }
 
 .icon-item {
@@ -71,7 +67,13 @@ h1 {
   align-items: center;
   background-color: #292C34;
   border-radius: 50px;
+  width: 100px;
+  height: 8px;
 
+  p {
+    padding-left: 8px;
+
+  }
 }
 
 .border {
@@ -81,5 +83,4 @@ h1 {
 
 .seta-icon {
  margin-top: 80px;
-
 }
