@@ -40,3 +40,8 @@
 body {
   background-color: var(--gray-400);
 }
+
+main img {
+  max-width: 100%;
+  
+}

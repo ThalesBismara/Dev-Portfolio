@@ -1,0 +1,25 @@
+.main-container {
+  max-width: 1366px;
+  width: 100%;
+  margin: auto;
+  padding-top: 56px;
+  padding-bottom: 56px;
+  background-color: #16181D;
+  box-sizing: border-box;
+
+  h3 {
+    padding-bottom: 5px;
+    
+  }
+
+  
+}
+
+  .article-size {
+    width: 330px;
+    height: 280px;
+  }
+
+
+
+

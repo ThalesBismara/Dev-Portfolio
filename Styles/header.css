@@ -1,6 +1,7 @@
 .header-container {
   position: relative; /* Permite que o avatar seja posicionado sobre o fundo */
   text-align: center; /* Centraliza os textos e imagens */
+  
 
 }
 
@@ -10,6 +11,8 @@
   padding-left: 80px;
   padding-right: 80px;
   padding-top: 80px;
+  background-color: #16181D;
+  vertical-align: top;
   
 }
 
@@ -63,12 +66,10 @@ h1 {
 .icon-item {
   background-color: #16181D;
   display: flex;
-  padding: 16px;
   align-items: center;
   background-color: #292C34;
   border-radius: 50px;
   width: 100px;
-  height: 8px;
 
   p {
     padding-left: 8px;
